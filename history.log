@@ -1,0 +1,767 @@
+    1  df -h
+    2  su -
+    3  sudo apt-get install vim
+    4  id tux01
+    5  su -
+    6  sudo apt-get install vim
+    7  sudo passwd root
+    8  sudo poweroff
+    9  su -
+   10  sudo apt-cache search kde
+   11  sudo apt-cache search kde | grep desktop
+   12  sudo apt-cache search kde-
+   13  sudo cache search kde-l10n
+   14  sudo cache search kde-l10n-de
+   15  sudo cache search kde-l10
+   16  sudo apt-cache search kde-l10
+   17  apt-get install kde-l10n-de language-pack-kde-de openssh-server
+   18  sudo apt-get install kde-l10n-de language-pack-kde-de openssh-server
+   19  sudo apt-get install kde-l10n-de openssh-server
+   20  sudo apt-get install kde-standard
+   21  caja
+   22  sudo apt-get remove kde-standard
+   23  su -
+   24  ping sithlord
+   25  scp Bilder/background.jpg stefan@sithlord:/home/stefan
+   26  clear
+   27  sudo apt-get autoremove
+   28  scp Bilder/tuxjedi.png tux02@padawan02:/home/tux02/Bilder
+   29  scp Bilder/tuxjedi.png tux03@padawan03:/home/tux03/Bilder
+   30  scp Bilder/tuxjedi.png tux04@padawan04:/home/tux04/Bilder
+   31  su -
+   32  scp Bilder/tuxjedi.png tux04@padawan04:/home/tux04/Bilder
+   33  scp Bilder/tuxjedi.png tux05@padawan05:/home/tux05/Bilder
+   34  scp Bilder/tuxjedi.png tux06@padawan06:/home/tux06/Bilder
+   35  scp Bilder/tuxjedi.png tux07@padawan07:/home/tux07/Bilder
+   36  scp Bilder/tuxjedi.png stefan@sithlord:/home/stefan/Bilder
+   37  scp Bilder/tuxjedi.png tux07@padawan07:/home/tux07/Bilder
+   38  scp Bilder/tuxjedi.png tux09@padawan09:/home/tux09/Bilder
+   39  scp Bilder/tuxjedi.png tux10@padawan10:/home/tux10/Bilder
+   40  scp Bilder/tuxjedi.png tux10@padawan10:/home/tux11/Bilder
+   41  scp Bilder/tuxjedi.png tux11@padawan11:/home/tux11/Bilder
+   42  scp Bilder/tuxjedi.png tux12@padawan12:/home/tux12/Bilder
+   43  scp Bilder/tuxjedi.png tux14@padawan14:/home/tux14/Bilder
+   44  scp Bilder/tuxjedi.png tux15@padawan15:/home/tux15/Bilder
+   45  scp Bilder/tuxjedi.png tux07@padawan07:/home/tux07/Bilder
+   46  scp Bilder/* tux07@padawan07:/home/tux07/Bilder
+   47  scp Bilder/tuxjedi.png tux15@padawan15:/home/tux15/Bilder
+   48  scp Bilder/* tux11@padawan11:/home/tux11/Bilder
+   49  scp Bilder/* tux12@padawan12:/home/tux12/Bilder
+   50  scp Bilder/* tux14@padawan14:/home/tux14/Bilder
+   51  scp Bilder/* tux07@padawan07:/home/tux07/Bilder
+   52  scp Bilder/* tux08@padawan08:/home/tux08/Bilder
+   53  scp Bilder/* tux14@padawan14:/home/tux14/Bilder
+   54  scp Bilder/* tux15@padawan15:/home/tux15/Bilder
+   55  scp Bilder/* stefan@sithlord:/home/stefan/Bilder
+   56  scp Bilder/* tux02@padawan02:/home/tux02/Bilder
+   57  echo "" > /home/tux01/.ssh/known_hosts
+   58  scp Bilder/* tux02@padawan02:/home/tux02/Bilder
+   59  echo "" > /home/tux01/.ssh/known_hosts
+   60  scp Bilder/* stefan@sithlord:/home/stefan/Bilder
+   61  echo "" > /home/tux01/.ssh/known_hosts
+   62  clear
+   63  su -
+   64  apt-get install lolcat
+   65  su -
+   66  cat /etc/profile.d/localhost.sh 
+   67  env
+   68  env | grep proxy
+   69  ls -la /etc/profile.d/
+   70  su -
+   71  env
+   72  env | grep proxy
+   73  cat /etc/profile.d/localhost.sh 
+   74  dpkg -l | grep apache
+   75  su -
+   76  clear
+   77  tty
+   78  whoami
+   79  who am i
+   80  date
+   81  who
+   82  w
+   83  hostid
+   84  path
+   85  pwd
+   86  cd /usr/share/doc
+   87  ls
+   88  his
+   89  history 
+   90  clear
+   91  cd
+   92  mkdir Spielplatz
+   93  ls -l
+   94  cd Spielplatz/
+   95  touch play
+   96  ls -la
+   97  echo "Fritz" > vornamen
+   98  ls -la
+   99  echo "Heinz" > vornamen
+  100  ☢
+  101  history
+  102  cat vornamen 
+  103  echo "Sandro
+  104  Alban
+  105  Peter
+  106  Lars
+  107  Michael
+  108  Stefan
+  109  Maximilian
+  110  Tobias
+  111  Holger
+  112  Sven
+  113  Jörn
+  114  Herbert Hubert" > vornamen
+  115  cat vornamen 
+  116  clear
+  117  wc -w vornamen 
+  118  wc vornamen 
+  119  wc -w vornamen 
+  120  wc -l vornamen 
+  121  nl vornamen
+  122  history
+  123  sort vornamen > vornamen.sort
+  124  cat vornamen.sort 
+  125  diff vornamen vornamen.sort 
+  126  cat vornamen
+  127  cat vornamen.sort 
+  128  history | grep grep
+  129  sort vornamen
+  130  cat vor
+  131  cat vornamen
+  132  grep vornamen
+  133  clear
+  134  sort vornamen
+  135  rev vornamen
+  136  tac vornamen
+  137  clear
+  138  tac vornamen
+  139  cat vornamen
+  140  sort vornamen | tac > vornamen.newsort
+  141  cat vornamen.newsort 
+  142  clear
+  143  cat vornamen
+  144  cat vornamen.newsort 
+  145  lolcat vornamen
+  146  clear
+  147  lolcat vornamen
+  148  history
+  149  ls -la
+  150  cd Spielplatz/
+  151  ls -la
+  152  cd Spielplatz/
+  153  ls
+  154  history
+  155  tty
+  156  clear
+  157  tty
+  158  whoami
+  159  who am i
+  160  ૽
+  161  touch ☢
+  162  cat > mein_buch
+  163  ls
+  164  mv mein_buch Spielplatz/
+  165  mv ☢ Spielplatz/
+  166  cd Spielplatz/
+  167  ls
+  168  cat mein_buch 
+  169  vim mein_buch 
+  170  scp vornamen tux04@padawan04:/home/tux04/Spielplatz
+  171  cp vornamen vornamen2
+  172  rm vornamen2
+  173  cp -v vornamen backups
+  174  ls -la /etc/host
+  175  ls -la /etc/hosts
+  176  cp -v /etc/hosts /etc/hostname /etc/fstab .
+  177  ls -la
+  178  ls -la /etc/hostname 
+  179  cd
+  180  ls
+  181  ls -l
+  182  cp Spielplatz/ Spielplatz2
+  183  cp -a Spielplatz/ Spielplatz2
+  184  ls -l
+  185  mkdir /tmp/user-backup
+  186  cp -a /home/tux01/ /tmp/user-backup/
+  187  ls -la /tmp/user-backup/
+  188  cd /tmp/user-backup/
+  189  ls -la
+  190  cd tux01/
+  191  ls
+  192  ls -la
+  193  cd ~
+  194  pwd
+  195  ls /tmp/user-backup/
+  196  rm -r /tmp/user-backup/tux01/
+  197  cp -a /home/tux01/* /tmp/user-backup/
+  198  ls -la /tmp/user-backup/
+  199  ls -la ~
+  200  cp -a /home/tux01/.* /tmp/user-backup/
+  201  ls -la /tmp/user-backup/
+  202  man cp
+  203  rm -r /tmp/user-backup/*
+  204  ls -la /tmp/user-backup/
+  205  cd /tmp/user-backup/
+  206  rm *
+  207  ls -la
+  208  rm -rf *
+  209  ls
+  210  ls -la
+  211  rm -rf .*
+  212  ls -la
+  213  ls
+  214  ls -la
+  215  cp -avr /home/tux01/* /tmp/user-backup/
+  216  ls -la
+  217  man cp
+  218  ls -la
+  219  rsync -avP /home/tux01/* /tmp/user-backup/
+  220  du -sh ~
+  221  du -sh /tmp/user-backup/
+  222  cd
+  223  rm -rf /tmp/user-backup/
+  224  mkdir /tmp/user-backup
+  225  cp -av /home/tux01/. /tmp/user-backup/
+  226  du -sh ~
+  227  du -sh /tmp/user-backup/
+  228  find ~ | wc -l
+  229  find /tmp/user-backup/ | wc -l
+  230  la -la
+  231  cd Spielplatz
+  232  ls -la
+  233  ls -la ../
+  234  ls -la ../Spielplatz2
+  235  cd ..
+  236  rm -rf Spielplatz2
+  237  cp -a Spielplatz/ Spielplatz2
+  238  ls -la Spielplatz2
+  239  cp -a Spielplatz/. Spielplatz2
+  240  ls -la Spielplatz2
+  241  cd Spielplatz
+  242  clear
+  243  ls -la
+  244  ln vornamen lvornamen
+  245  ls -la
+  246  rm play vornamen.newsort vornamen.sort 
+  247  ls -la
+  248  rm lvornamen 
+  249  du -sh .
+  250  ls -la
+  251  ln vornamen lvornamen
+  252  du -sh .
+  253  echo "Heidi" >> vornamen 
+  254  ls -la
+  255  cat lvornamen 
+  256  ln vornamen lvornamen2
+  257  ls -la
+  258  stat vornamen 
+  259  mkdir
+  260  mkdir dir
+  261  ls -lai
+  262  cd ..
+  263  ls -lai
+  264  cd Spielplatz
+  265  man find
+  266  find / -iname -inum 4329290
+  267  cd dir/
+  268  ls -lai
+  269  man man
+  270  man rsync
+  271  su -
+  272  man rsync
+  273  LANG=C man man
+  274  history | sort | less
+  275  sort history | less
+  276  cd
+  277  su -
+  278  history
+  279  cd Spielplatz
+  280  ls
+  281  vim vornamen 
+  282  vim vim
+  283  clear
+  284  su -
+  285  vim .profile 
+  286  su -
+  287  locale
+  288  LC_ALL="de_DE.UTF-8"
+  289  locale
+  290  locale -a
+  291  LC_ALL="de_DE.UTF8"
+  292  locale -a
+  293  locale
+  294  reboot
+  295  sudo reboot
+  296  which ls
+  297  id
+  298  type ls
+  299  cd /etc/
+  300  ls -l passwd group
+  301  sudo apt-get install vim
+  302  vim -R passwd
+  303  vim /etc/vim/vimrc
+  304  sudo vim /etc/vim/vimrc
+  305  vim Spielplatz/LinuxKurs 
+  306  dpkg-reconfigure locales
+  307  dpkg-reconfigure locale
+  308  sudo dpkg-reconfigure locales
+  309  sudo reboot
+  310  sudo dpkg-reconfigure locales
+  311  cd /home/
+  312  ls
+  313  ls -la
+  314  cd projekt/
+  315  ls -la
+  316  id
+  317  cd Spielplatz
+  318  ls
+  319  ls -la
+  320  cat vim >> LinuxKurs 
+  321  vim LinuxKurs 
+  322  cd ..
+  323  rsync -avP Spielplatz Spielplatz2
+  324  ls -la Spielplatz2
+  325  ssh sandro@sithlord
+  326  su -
+  327  cd Spielplatz
+  328  ls
+  329  ls -la
+  330  chown petra mein_buch 
+  331  ls -la
+  332  sudo chown petra mein_buch 
+  333  ls -la
+  334  history
+  335  su -
+  336  cd /home/projekt/
+  337  ls -la
+  338  vim datei 
+  339  ls -la
+  340  cat datei 
+  341  cd verzeichnis/
+  342  ls -la
+  343  vim nochnedatei
+  344  ls -la
+  345  cd /home/
+  346  ls -la
+  347  id tux01 
+  348  id petra 
+  349  cd projekt/
+  350  ls -la
+  351  ls -la /home/tux01/Spielplatz
+  352  ls -la
+  353  su -
+  354  ls -la
+  355  history | grep chmod
+  356  ls -la
+  357  su -
+  358  su - petra
+  359  sudo rm datei 
+  360  ls -la
+  361  rm verzeichnis/
+  362  sudo rm verzeichnis/
+  363  sudo rm -rf verzeichnis/
+  364  ls -la
+  365  vim sandrof
+  366  ls -la
+  367  mkdir sandrosstuff
+  368  ls -la
+  369  which passwd
+  370  ls -la /usr/bin/passwd 
+  371  type passwd
+  372  type sudo
+  373  which sudo
+  374  ls -la /usr/bin/
+  375  ls -la /usr/bin/ sudo
+  376  ls -la /usr/bin/ sudo 
+  377  ls -la /usr/bin/ passwd
+  378  histor
+  379  history
+  380  ls -la /usr/bin/sudo 
+  381  ls -la /usr/bin/passwd
+  382  ls -la
+  383  cd ..
+  384  ls -la
+  385  chmod +t projekt/
+  386  sudo chmod +t projekt/
+  387  ls -la
+  388  sudo chmod -t projekt/
+  389  ls -la
+  390  sudo chmod +t projekt/ && ls -la projekt
+  391  sudo chmod +t projekt/ && ls -la 
+  392  sudo chmod +t projekt/ && ls -la /home
+  393  sudo chmod +t projekt/ && ls -la /home/projekt/
+  394  sudo chmod +t projekt/ && ls -la /home/
+  395  sudo chmod -t projekt/
+  396  ls -la
+  397  ls -la /tmp/ /var/tmp/
+  398  su - petra
+  399  mkdir skripte
+  400  cd skripte/
+  401  vim update.sh
+  402  chmod +x update.sh 
+  403  cd
+  404  vim .bashrc 
+  405  ls
+  406  cd Downloads/
+  407  ls
+  408  wget https://wiki.linuxhotel.de/doku.php/admin_grundlagen:start
+  409  ls
+  410  ls -la
+  411  vim admin_grundlagen\:start 
+  412  wget --help
+  413  wget --help | less
+  414  wget -r -l=0 --http-user=sandro_isoletta --http-password=Streuner79 https://wiki.linuxhotel.de/doku.php/admin_grundlagen:start
+  415  wget -r -l0 --http-user=sandro_isoletta --http-password=Streuner79 https://wiki.linuxhotel.de/doku.php/admin_grundlagen:start
+  416  ll
+  417  ls -la
+  418  rm -rf admin_grundlagen\:start 
+  419  rm -rf wiki.linuxhotel.de/
+  420  getfacl /home/
+  421  getfacl /home/projekt
+  422  su -
+  423  ssh tux11@padawan11
+  424  ssh root@padawan11
+  425  df -h
+  426  su -
+  427  cd Spielplatz
+  428  ls
+  429  vim LinuxKurs 
+  430  update
+  431  su -
+  432  sudo vim /etc/fstab 
+  433  reboot
+  434  sudo reboot
+  435  kill -CONT 4817
+  436  kill -20 4817
+  437  pstree -p
+  438  pstree -pl
+  439  pstree -plu -s $$
+  440  pstree -plu -s 1351
+  441  pstree -plu -s 1360
+  442  pstree -plu -s 1351
+  443  history
+  444  kill -l
+  445  ps aux | less
+  446  ps auxw | less
+  447  ps auxwf | less
+  448  top
+  449  top -h
+  450  top --help
+  451  top -h
+  452  top -hv
+  453  man top
+  454  top
+  455  iotop
+  456  find / | wc -l
+  457  find / -xdev | wc -l
+  458  sudo find / -xdev | wc -l
+  459  find / -type f -name '*name*'
+  460  find / -type f -name '*orname*'
+  461  find / -type f -name '*orname*' | less
+  462  find / -type f -name '*orname*' > /tmp/find_result
+  463  cat /tmp/find_result
+  464  find / -type f -name '*orname*' 2> /tmp/find_errors
+  465  find / -type f -name '*orname*' 2> /tmp/find_errors > /tmp/find_result 
+  466  ls -l /dev/{null,zero,*ran*}
+  467  dd if=/dev/zero of=/dev/null
+  468  find / -type f -name '*orname*' &> /tmp/find_alles
+  469  find / xdev -type f -perm -4100 -ls 2> /dev/null
+  470  find / xdev -type f -perm /u=s -ls 2> /dev/null
+  471  find / xdev -type f -perm /g=s -ls 2> /dev/null
+  472  find / xdev -type f -perm /g=s -ls 2> /dev/null | grep home
+  473  find / xdev -type f -perm /u=s -ls 2> /dev/null | grep home
+  474  find / xdev -type d -perm /u=s -ls 2> /dev/null
+  475  find / xdev -type d -perm /g=s -ls 2> /dev/null
+  476  find / xdev -type d -perm /g=s -ls 2> /dev/null | grep home
+  477  ls -l Spielplatz
+  478  ls -il Spielplatz
+  479  find /home -xdev -type f -inum 4328358 -ls 2> /dev/null 
+  480  find / /home/ -xdev -nouser -ls
+  481  find / /home/ -xdev -nogroup -ls 2> /dev/null
+  482  find / /home/ -xdev -nouser -ls 2> /dev/null
+  483  find / /home/ -xdev -uid 1014 
+  484  find / /home/ -xdev -uid 1014 2> /dev/null
+  485  find / /home/ -xdev -uid 1001 2> /dev/null
+  486  find / /home/ -xdev -uid 1001 2> /dev/null | xargs chown -c tux01:users
+  487  sudo find / /home/ -xdev -uid 1001 2> /dev/null | xargs chown -c tux01:users
+  488  ls -la /home/
+  489  ls -la /home/petra/
+  490  sudo find / /home/ -xdev -uid 1001 2> /dev/null | sudo xargs chown -c tux01:users
+  491  ls -la /home/petra/
+  492  ls -la /home/
+  493  sudo chown -R petra:users /home/petra/
+  494  ls -la /home/
+  495  dd if=/dev/zero of=/dev/null
+  496  apt-cache search apt-cach
+  497  aptitude
+  498  synaptic
+  499  sudo synaptic
+  500  sudo apt-get install cowsay | lolcat
+  501  clear
+  502  cowsay
+  503  cowsay "Haha"
+  504  cowsay "Haha" | lolcat
+  505  cowsay "Es war einmal ein einsamer Admin." | lolcat
+  506  cowsay "Es war einmal ein einsamer Admin. Der installierte sich ein schickes Debian." | lolcat
+  507  cowsay "Es war einmal ein einsamer Admin. Der installierte sich ein schickes Debian. Und fortan war er nicht mehr allein und hatte sehr viel Freude in seinem Leben." | lolcat
+  508  cowsay "Es war einmal ein einsamer Admin. Der installierte sich ein schickes Debian. Und fortan war er nicht mehr allein und hatte sehr viel Freude in seinem Leben. Und er sah, dass es gut war und so wollte er seine Freude mit anderen guten Menschen teilen und so zog er ein Netzwerk auf." | lolcat
+  509  cat /dev/null | cowsay
+  510  cat /dev/zero | cowsay
+  511  ls -ld / | cowsay
+  512  ls -ld / > /tmp/temp && cat temp | cowsay
+  513  ls -ld / > /tmp/temp && cat /tmp/temp | cowsay
+  514  ls -ld /
+  515  ls -l /
+  516  ls -l / > /tmp/temp && cat /tmp/temp | cowsay
+  517  ls -l / | cowsay
+  518  ls -l / | cowsay | lolcat
+  519  cat /dev/zero | cowsay
+  520  cat /dev/null | cowsay
+  521  ls -l / | cowsay | lolcat
+  522  cat /home/tux01/Spielplatz/vornamen | cowsay | lolcat
+  523  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen
+  524  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen2
+  525  cat /home/tux01/Spielplatz/vornamen2 >> /home/tux01/Spielplatz/vornamen
+  526  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen2
+  527  cat /home/tux01/Spielplatz/vornamen2 >> /home/tux01/Spielplatz/vornamen
+  528  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen2
+  529  cat /home/tux01/Spielplatz/vornamen2 >> /home/tux01/Spielplatz/vornamen
+  530  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen2
+  531  cat /home/tux01/Spielplatz/vornamen2 >> /home/tux01/Spielplatz/vornamen
+  532  cat /home/tux01/Spielplatz/vornamen >> /home/tux01/Spielplatz/vornamen2
+  533  cat /home/tux01/Spielplatz/vornamen2 >> /home/tux01/Spielplatz/vornamen
+  534  cat /home/tux01/Spielplatz/vornamen | cowsay | lolcat
+  535  update | cowsay
+  536  dpkg -l | grep apache
+  537  dpkg -l | grep sh
+  538  dpkg -l | grep tsh
+  539  sudo apt-get install tsh | lolcat | cowsay
+  540  sudo apt-cache search tsh
+  541  sudo apt-get install tiger | cowsay | lolcat
+  542  sudo apt-get install tiger -y | cowsay | lolcat
+  543  sudo apt-get install moon-lander -y | cowsay | lolcat
+  544  dpkg -l | grep moon
+  545  moon-lander
+  546  dpkg -l | cowsay
+  547  dpkg -l | cowsay -W 150
+  548  dpkg -l | cowsay -n
+  549  sudo apt-get remove --purge moon-lander -y | cowsay -n | lolcat
+  550  cowls() {      ls "$@" | cowsay -n | lolcat; }
+  551  cowls
+  552  cowls /home/
+  553  ls
+  554  cd Spielplatz
+  555  cowls
+  556  cd ☢
+  557  cat ☢
+  558  cowls > cowls() { 
+  559  }
+  560  cowls
+  561  cowls > ☢
+  562  cat ☢
+  563  cat vornamen | cowsay
+  564  cat vornamen | cowsay -n
+  565  cat vornamen | cowsay -n | lolcat
+  566  vim vornamen
+  567  vim vim
+  568  scp vim tux02@padawan02
+  569  scp vim tux02@padawan02:/home/tux02/Spielplat/
+  570  scp vim tux02@padawan02:/home/tux02/Spielplatz/
+  571  vim vim
+  572  vimtutor
+  573  vim vim
+  574  vimtutor
+  575  vim vim
+  576  service apache2 restart
+  577  sudo service apache2 restart
+  578  jobs
+  579  fg
+  580  sudo services apache2 restart
+  581  sudo /etc/init.d/apache2 restart
+  582  ls /etc/apache2/
+  583  dpkg -l | grep apache
+  584  sudo apt-get install apache2
+  585  sleep 5m
+  586  vim vornamen
+  587  jobs
+  588  fg %1
+  589  jobs
+  590  fg %3
+  591  jobs
+  592  %2
+  593  jobs
+  594  ps aux | grep vim
+  595  kill 4610
+  596  ps aux | grep vim
+  597  sudo kill 4610
+  598  ps aux | grep vim
+  599  sudo kill -9 4610
+  600  ps aux | grep vim
+  601  jobs
+  602  %
+  603  sleep 1m
+  604  sleep 2m
+  605  sleep 3m
+  606  sleep 10m
+  607  jobs
+  608  bg %2
+  609  job
+  610  jobs
+  611  bg %3
+  612  bg %4
+  613  jobs
+  614  bg %1
+  615  jobs
+  616  bg %5
+  617  jobs
+  618  sleep 666 &
+  619  jobs
+  620  sudo caja &
+  621  jobs
+  622  ps aux | grep caja
+  623  sudo kill -9 4635
+  624  jobs
+  625  pstree
+  626  pstree -p
+  627  pstree -pl
+  628  pstree -plu
+  629  pstree -plu -s $$
+  630  ps
+  631  ps a
+  632  ps ax | less
+  633  jobs
+  634  sleep 12m
+  635  jobs
+  636  ps ax
+  637  history | grep pstree
+  638  jobs
+  639  %1
+  640  kill -l
+  641  ps ax|grep sleep
+  642  jobs
+  643  sleep 1m &
+  644  jobs
+  645  kill -TERM %3
+  646  jobs
+  647  sleep 1m &
+  648  kill -KILL %3
+  649  jobs
+  650  sleep 1m &
+  651  kill -ALRM %3
+  652  jobs
+  653  sleep 1m &
+  654  kill -ALRM %3
+  655  jobs
+  656  lscpu
+  657  cd /proc/
+  658  ls
+  659  cat cpuinfo 
+  660  cat uptime 
+  661  cat version 
+  662  cd $$
+  663  ls
+  664  ls -la
+  665  cd /proc/self
+  666  ls -la
+  667  cat mem 
+  668  cd ..
+  669  ls
+  670  cat meminfo
+  671  meminfo
+  672  memfree -h
+  673  free -h
+  674  vim Spielplatz/LinuxKurs 
+  675  cp Spielplatz/LinuxKurs Spielplatz2/
+  676  sudo poweroff
+  677  scp stefan@sithlord:/home/stefan/Spielplatz/vim .
+  678  ls
+  679  vim vim
+  680  cowsay "Mittach!"
+  681  clear && cowsay "Mittach!" | xtrlock
+  682  clear && cowsay "Mittach!" && xtrlock
+  683  clear && cowsay "Mittach!" | lolcat && xtrlock
+  684  vim .bashrc 
+  685  vim Spielplatz/LinuxKurs 
+  686  p
+  687  update 
+  688  sudo apt-get update | lolcat
+  689  sudo apt-get install deb-multimedia-keyring | lolcat
+  690  sudo apt-get install deb-multimedia-keyring -y | lolcat
+  691  sudo apt-get install deb-multimedia-keyring -y 
+  692  sudo apt-get install deb-multimedia-keyring -y --force-yes
+  693  sudo apt-get update | lolcat
+  694  sudo apt-get upgrade -y | lolcat
+  695  sudo apt-get install thunderbird
+  696  sudo apt-cache search thunderbird
+  697  sudo apt-get install icedove-l10n-de
+  698  (vgs;pvs;lvs) > lvm.ba
+  699  su -
+  700  vim Spielplatz/LinuxKurs 
+  701  od -x /dev/sda | less
+  702  sudo od -x /dev/sda | less
+  703  su -
+  704  top
+  705  man tmux
+  706  ssh paula@sithlord 
+  707  w
+  708  ssh paula@sithlord 
+  709  ssh tux03@padawan03
+  710  p
+  711  rm -rf .ssh/
+  712  ssh tux02@padawan02
+  713  ls
+  714  cd .ssh
+  715  ls
+  716  ls -la
+  717  rskey-gen -l -f /etc/ssh/ssh_host_ecdsa_key
+  718  ssh-key-gen -l -f /etc/ssh/ssh_host_ecdsa_key
+  719  ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key
+  720  ssh-keygen -l -f /etc/ssh/ssh_host_dsa_key
+  721  ssh-keygen -t rsa -b 4096 
+  722  ssh-keygen -t ed25519
+  723  ls -l
+  724  scp id_ed25519.pub paula@sithlord:id_ed01.pub
+  725  scp id_rsa.pub paula@sithlord:id_rsa☢.pub
+  726  ssh paula@sithlord 
+  727  vim /etc/ssh/sshd_config 
+  728  sudo vim /etc/ssh/sshd_config 
+  729  tmux
+  730  tmux a
+  731  ping padawan03
+  732  nc
+  733  nc 172.16.0.35 80
+  734  man vim
+  735  which mail
+  736  /usr/bin/mail
+  737  man mail
+  738  mail -s"Testmail" kindkains@gmx.de
+  739  crontab -e
+  740  tail -F /tmp/crontest
+  741  history
+  742  history | grep vim
+  743  vim Spielplatz/LinuxKurs 
+  744  echo "Hallo" | mail -s"Testmail" kindkains@gmx.de
+  745  echo "Hallo" | mail -s"Testmail" sandro.isoletta@pl.bildung-rp.de
+  746  update
+  747  su -
+  748  history
+  749  su -
+  750  sudo poweroff
+  751  cowls
+  752  history | grep cow
+  753  cowls
+  754  cowls() {      ls "$@" | cowsay -n | lolcat; }
+  755  cowls
+  756  p
+  757  vim Spielplatz/LinuxKurs 
+  758  sudo poweroff
+  759  sudo apt-get install chromium
+  760  p
+  761  ld
+  762  ls
+  763  cd Spielplatz
+  764  lsd
+  765  ls
+  766  ls -la
+  767  history > history.log
